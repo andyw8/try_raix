@@ -58,3 +58,4 @@ group :test do
 end
 
 gem "raix"
+gem "dotenv-rails"
