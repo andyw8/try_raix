@@ -8,7 +8,7 @@ class MeaningOfLife
   include Raix::ChatCompletion
 end
 
-if __FILE__
+if __FILE__ == $0
   ai = MeaningOfLife.new
   ai.transcript << { user: "What is the meaning of life?" }
   puts ai.chat_completion
